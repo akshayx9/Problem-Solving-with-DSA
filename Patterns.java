@@ -59,36 +59,6 @@ public class Patterns {
         Scanner s = new Scanner(System.in);
         int t = s.nextInt();
 
-        // Pattern 1
-        for (int i = 0; i < t; i++) {
-            int n = s.nextInt();
-            Patterns.printPattern1(n);
-        }
-
-        // Pattern 2
-        for (int i = 0; i < t; i++) {
-            int n = s.nextInt();
-            Patterns.printPattern2(n);
-        }
-
-        // Pattern 3
-        for (int i = 0; i < t; i++) {
-            int n = s.nextInt();
-            Patterns.printPattern3(n);
-        }
-
-        // Pattern 4
-        for (int i = 0; i < t; i++) {
-            int n = s.nextInt();
-            Patterns.printPattern4(n);
-        }
-
-        // Pattern 5
-        for (int i = 0; i < t; i++) {
-            int n = s.nextInt();
-            Patterns.printPattern5(n);
-        }
-
         for (int i = 0; i < t; i++) {
             int n = s.nextInt();
             Patterns.printPattern6(n);
