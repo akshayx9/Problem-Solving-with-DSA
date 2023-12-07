@@ -1,4 +1,4 @@
-package JavaCollections;
+package Step1_3_Collections;
 
 import java.util.ArrayList;
 
