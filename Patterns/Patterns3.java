@@ -1,3 +1,5 @@
+package Patterns;
+
 import java.util.Scanner;
 
 public class Patterns3 {
@@ -69,7 +71,7 @@ public class Patterns3 {
 
     public static void printPattern18(int n) {
         for (int i = 0; i < n; i++) {
-            for (char ch = (char)(int)('A'+n-1-i); ch <= (char)(int)('A'+n-1); ch++) {
+            for (char ch = (char) (int) ('A' + n - 1 - i); ch <= (char) (int) ('A' + n - 1); ch++) {
                 System.out.print(ch + " ");
             }
             System.out.println(" ");
