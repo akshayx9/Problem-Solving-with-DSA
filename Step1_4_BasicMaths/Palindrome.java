@@ -1,10 +1,4 @@
 package Step1_4_BasicMaths;
-/*
-Problem Statement
-
-Check whether a given number is 'n' is a palindrome number.
-
-*/
 
 import java.util.Scanner;
 
@@ -19,11 +13,7 @@ public class Palindrome {
             temp = temp / 10;
         }
 
-        if (n == rev) {
-            return true;
-        } else {
-            return false;
-        }
+        return (rev == n);
     }
 
     public static void main(String[] args) {
