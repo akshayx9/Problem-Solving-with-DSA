@@ -1,3 +1,5 @@
+package Step1_4_BasicMaths;
+
 import java.util.Scanner;
 
 public class SumOfDivisors {
