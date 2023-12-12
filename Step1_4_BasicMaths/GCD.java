@@ -4,12 +4,17 @@ import java.util.Scanner;
 
 public class GCD {
     public int calcGCD(int a, int b) {
-        // Write your code here.
-        if (b == 0) {
-            return a;
-        } else {
-            return calcGCD(b, a % b);
+        while (a > 0 && b > 0) {
+            if (a > b) {
+                a = a % b;
+            } else {
+                b = b % a;
+            }
         }
+        if (a == 0) {
+            return b;
+        }
+        return a;
     }
 
     public static void main(String[] args) {
