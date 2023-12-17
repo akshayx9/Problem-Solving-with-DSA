@@ -1,4 +1,17 @@
+package Step1_4_BasicMaths;
+
 import java.util.Arrays;
+
+/* 
+
+Given a number n, print all primes smaller than 
+or equal to n. It is also given that n is a small number.
+
+To solve this problem we can use a Sieve. 
+Sieve of Eratosthenes is the algorithm to find all 
+the prime numbers less than or equal to a given 
+integer n. The algorithm terminates, all the numbers 
+in the list that are not marked are prime */
 
 public class SieveOfEratosthenes {
     public void sieve(int n) {

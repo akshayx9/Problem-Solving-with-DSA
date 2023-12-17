@@ -1,4 +1,15 @@
+package Step1_4_BasicMaths;
+
 import java.util.Scanner;
+
+/*
+Problem Statement
+
+We are given a number n. The task is to print all prime factors of n. 
+
+Prime Factors: They are prime numbers, which are factors of a given number.
+
+*/
 
 public class PrimeFactors {
     public void printPrimeFactors(int n) {
@@ -13,7 +24,7 @@ public class PrimeFactors {
             System.out.println(3);
             n = n / 3;
         }
-        for (int i = 5; i * i <= n; i++) {
+        for (int i = 5; i * i <= n; i = i + 6) {
             while (n % i == 0) {
                 System.out.println(i);
                 n = n / i;
