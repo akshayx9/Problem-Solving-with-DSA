@@ -6,20 +6,20 @@ import java.util.Scanner;
 Problem Statement
 
 You are given an integer 'n'. Your task is to 
-return an array containing integers from 1 to ‘n’ 
+return an array containing integers from 'n' to 1 
 (in increasing order) without using loops. */
 
-public class PrintNumsRecursion {
+public class PrintNumsReverse {
     public static int[] printNos(int x) {
         int[] result = new int[x];
-        addNos(1, x, result, 0);
+        addNos(x, result, 0);
         return result;
     }
 
-    private static void addNos(int current, int n, int[] result, int index) {
-        if (current <= n) {
+    private static void addNos(int current, int[] result, int index) {
+        if (current >= 1) {
             result[index] = current;
-            addNos(current + 1, n, result, index + 1);
+            addNos(current - 1, result, index + 1);
         }
     }
 
